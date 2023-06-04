@@ -9,7 +9,7 @@ import { SuggestedProduct } from '../models/models';
 export class HomeComponent implements OnInit{
   suggestedProducts: SuggestedProduct[] = [
     {
-      banerimage: 'Baner/ferre.jpg',
+      banerimage: 'Baner/ferrebanner.png',
       category: {
         id: 1,
         category: 'electronics',

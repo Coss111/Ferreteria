@@ -9,7 +9,7 @@
                 <tbody>
                     <tr>
                         <td>Total Items</td>
-                        <td class="fs-5 fw-bold"> {{ getTotalQuantity() }} </td>
+                        <td class="fs-5 fw-bold"> {{  getTotalQuantity() }} </td>
                     </tr>
                     <tr>
                         <td>Precio Total</td>
@@ -23,7 +23,13 @@
             </table>
         </div>
         <div class="current-cart-items w-75 mx-auto mt-5">
-            <h4>Cart Items</h4>
+            <h4>Lista Productos</h4>
+            <div class="row mt-4 g-0">
+                <app-lista-productos></app-lista-productos>
+            </div>
+        </div>
+        <div class="current-cart-items w-75 mx-auto mt-5">
+            <h4>Productos Disponibles</h4>
             <div class="row mt-4 g-0">
                 <div class="col-6 py-3 px-2" *ngFor="let product of CartItems">
                     <app-product [view]="'currcartitem'" [imageSrc]="product.imageSrc" [header]="product.header"

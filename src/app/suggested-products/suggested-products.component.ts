@@ -17,6 +17,7 @@ export class SuggestedProductsComponent implements OnInit{
 
   suggestedProducts = [
     {
+      id:1,
       imageSrc: '../../assets/Images/herramientas/cajaherramientas.jpg',
       header: 'Caja de herramientas',
       title: 'Almacenamiento y organización',
@@ -25,6 +26,7 @@ export class SuggestedProductsComponent implements OnInit{
       availableProducts: 20
     },
     {
+      id:2,
       imageSrc: '../../assets/Images/herramientas/cintametrica.jpg',
       header: 'Cinta métrica',
       title: 'Medición y nivelación',
@@ -33,6 +35,7 @@ export class SuggestedProductsComponent implements OnInit{
       availableProducts: 15
     },
     {
+      id:4,
       imageSrc: '../../assets/Images/herramientas/alicateuniversal.jpg',
       header: 'Alicate universal',
       title: 'Herramienta manual',

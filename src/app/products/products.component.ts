@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
   view: 'grid' | 'list' = 'list';
-  sortby: 'default' | 'htl' | 'lth' = 'default';
 
   Products = [
     {
+      id: 1,
       imageSrc: '../../assets/Images/herramientas/cajaherramientas.jpg',
       header: 'Caja de herramientas',
       title: 'Almacenamiento y organización',
@@ -19,6 +19,7 @@ export class ProductsComponent implements OnInit {
       availableProducts: 20
     },
     {
+      id: 2,
       imageSrc: '../../assets/Images/herramientas/cintametrica.jpg',
       header: 'Cinta métrica',
       title: 'Medición y nivelación',
@@ -27,6 +28,7 @@ export class ProductsComponent implements OnInit {
       availableProducts: 15
     },
     {
+      id: 3,
       imageSrc: '../../assets/Images/herramientas/martillito.jpg',
       header: 'Martillo de carpintero',
       title: 'Herramienta manual',
@@ -35,6 +37,7 @@ export class ProductsComponent implements OnInit {
       availableProducts: 15
     },
     {
+      id: 4,
       imageSrc: '../../assets/Images/herramientas/alicateuniversal.jpg',
       header: 'Alicate universal',
       title: 'Herramienta manual',
@@ -43,6 +46,7 @@ export class ProductsComponent implements OnInit {
       availableProducts: 20
     },
     {
+      id: 5,
       imageSrc: '../../assets/Images/herramientas/pinturas.jpg',
       header: 'Pintura acrílica',
       title: 'Pintura y acabados',
@@ -51,6 +55,7 @@ export class ProductsComponent implements OnInit {
       availableProducts: 30
     },
     {
+      id: 6,
       imageSrc: '../../assets/Images/herramientas/guantesseguridad.jfif',
       header: 'Guantes de seguridad',
       title: 'Seguridad y protección',
@@ -59,6 +64,7 @@ export class ProductsComponent implements OnInit {
       availableProducts: 16
     },
     {
+      id: 7,
       imageSrc: '../../assets/Images/herramientas/cintadoblecara.jpg',
       header: 'Cinta adhesiva de doble cara',
       title: 'Adhesivos y selladores',
@@ -67,6 +73,7 @@ export class ProductsComponent implements OnInit {
       availableProducts: 30
     },
     {
+      id: 8,
       imageSrc: '../../assets/Images/herramientas/tornillostuercas.jpg',
       header: 'Tornillos y tuercas surtidos',
       title: 'Ferretería en general',
@@ -82,7 +89,6 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  sortByPrice(sortKey: string) {
-    
-  }
+  
+
 }

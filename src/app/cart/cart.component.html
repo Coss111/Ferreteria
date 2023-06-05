@@ -32,7 +32,7 @@
             <h4>Productos Disponibles</h4>
             <div class="row mt-4 g-0">
                 <div class="col-6 py-3 px-2" *ngFor="let product of CartItems">
-                    <app-product [view]="'currcartitem'" [imageSrc]="product.imageSrc" [header]="product.header"
+                    <app-product [view]="'currcartitem'" [id]="product.id" [imageSrc]="product.imageSrc" [header]="product.header"
                     [price]="product.price" [availableProducts]="product.availableProducts"></app-product>
                 </div>
             </div>

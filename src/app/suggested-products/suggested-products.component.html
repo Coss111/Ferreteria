@@ -1,6 +1,7 @@
 <div class="container-fluid d-flex justify-content-around align-items-center">
   <div class="w-25"  *ngFor="let product of suggestedProducts" >
     <app-product 
+        [id]="product.id"
         [imageSrc]="product.imageSrc"
         [header]="product.header"
         [title]="product.title"

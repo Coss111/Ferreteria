@@ -44,7 +44,7 @@
     <div class="list-view" *ngIf="view === 'list'">
       <div class="row mb-5" *ngFor="let product of Products">
         <div class="col">
-          <app-product [view]="'list'" [imageSrc]="product.imageSrc" [header]="product.header" [title]="product.title"
+          <app-product [view]="'list'" [id]="product.id" [imageSrc]="product.imageSrc" [header]="product.header" [title]="product.title"
           [description]="product.description" [price]="product.price" [availableProducts]="product.availableProducts"></app-product>
         </div>
       </div>
